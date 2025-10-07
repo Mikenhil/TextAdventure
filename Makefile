@@ -1,4 +1,4 @@
-textadventure: textadventure.o
+textadventure: main.o
 	g++ main.o -o textadventure
 
 main.o: main.cpp
